@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ForthActivity"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/img_bg">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/JudulPertama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="16dp"
+            android:text="BIODATA"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/photo_image_view"
+            android:layout_width="320dp"
+            android:layout_height="400dp"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/img_bio"
+            android:background="#4dffffff"
+            android:padding="25dp"/>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="215dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginBottom="20dp"
+            android:text="\nNama Lengkap       : Muhammad Imam Utama
+                          \nTTL                           : Palembang, 4 Okt 1999
+                          \nJenis Kelamin         : Laki - Laki
+                          \nNIM                          : 09031181722002
+                          \nJurusan                   : Sistem Informasi
+                          \nFakultas                   : Ilmu Komputer
+                          \nPerguruan Tinggi    : Universitas Sriwijaya
+                          \nAngkatan                 : 2017
+                          \nKelas                        : SI Reguler 5B
+                          "
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+</ScrollView>

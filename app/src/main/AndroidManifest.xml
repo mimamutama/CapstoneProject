@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.utsproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="World Headlines"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SecondActivity"></activity>
+        <activity android:name=".ThirdActivity"></activity>
+        <activity android:name=".ForthActivity"></activity>
+        <activity android:name=".FifthActivity" android:label="Indonesia Top Headlines"></activity>
+        <activity android:name=".DetailsActivity"></activity>
+        <activity android:name=".KategoriActivity"></activity>
+        <activity android:name=".MalayActivity" android:label="Malaysia Top Headlines"></activity>
+        <activity android:name=".PinoyActivity" android:label="Philippines Top Headlines"></activity>
+        <activity android:name=".ThaiActivity" android:label="Thailand Top Headlines"></activity>
+
+    </application>
+
+</manifest>
